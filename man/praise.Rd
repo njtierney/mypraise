@@ -4,10 +4,12 @@
 \alias{praise}
 \title{Deliver Praise}
 \usage{
-praise(name = "Nick", punctuation = "!")
+praise(name = "Nick", adjective = "Best", punctuation = "!")
 }
 \arguments{
 \item{name}{The name of the person to praise}
+
+\item{adjective}{describe the tone of the praise for this specific sentence structure.}
 
 \item{punctuation}{The tone of the praise}
 }
@@ -15,5 +17,7 @@ praise(name = "Nick", punctuation = "!")
 Let's deliver some praise!
 }
 \examples{
-
+praise(name = "Miles",
+       adjective = "Amazing",
+       punctuation = "!")
 }
