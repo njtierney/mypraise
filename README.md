@@ -18,5 +18,9 @@ The `praise()` function delivers praise\!
 ``` r
 library(praiseme)
 praise()
-#> [1] "You're the best, Nick!"
+#> You're the best, Nick!
+ praise(name = "Miles",
+        adjective = "amazing",
+        punctuation = "!")
+#> You're amazing, Miles!
 ```

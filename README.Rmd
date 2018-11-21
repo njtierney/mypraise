@@ -30,4 +30,7 @@ The `praise()` function delivers praise!
 ```{r example}
 library(praiseme)
 praise()
+ praise(name = "Miles",
+        adjective = "amazing",
+        punctuation = "!")
 ```

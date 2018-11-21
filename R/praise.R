@@ -5,14 +5,14 @@
 #' @param punctuation The tone of the praise
 #' @examples
 #' praise(name = "Miles",
-#'        adjective = "Amazing",
+#'        adjective = "amazing",
 #'        punctuation = "!")
 #' @export
 praise <- function(name = "Nick",
-                   adjective = "Best",
+                   adjective = "the best",
                    punctuation = "!"){
 
-  glue::glue("You're the {adjective}, {name}{punctuation}")
+  glue::glue("You're {adjective}, {name}{punctuation}")
 
 }
 

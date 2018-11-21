@@ -4,7 +4,7 @@
 \alias{praise}
 \title{Deliver Praise}
 \usage{
-praise(name = "Nick", adjective = "Best", punctuation = "!")
+praise(name = "Nick", adjective = "the best", punctuation = "!")
 }
 \arguments{
 \item{name}{The name of the person to praise}
@@ -18,6 +18,6 @@ Let's deliver some praise!
 }
 \examples{
 praise(name = "Miles",
-       adjective = "Amazing",
+       adjective = "amazing",
        punctuation = "!")
 }
